@@ -1,0 +1,30 @@
+/* Estilos Personalizados para Prof&Tech SAS */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Sección de Inicio */
+#inicio {
+    background: linear-gradient(rgba(0,0,123,0.7), rgba(0,0,123,0.7)), url('../images/services-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Sección de Servicios */
+#servicios .card {
+    transition: transform 0.3s;
+}
+
+#servicios .card:hover {
+    transform: scale(1.05);
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-primary:hover {
+    background-color: #003d82;
+}
